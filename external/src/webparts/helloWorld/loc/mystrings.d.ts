@@ -2,7 +2,7 @@ declare interface IHelloWorldWebPartStrings {
   PropertyPaneDescription: string;
   BasicGroupName: string;
   DescriptionFieldLabel: string;
-  AnotherProp: string;
+  AnotherProp:string;
 }
 
 declare module 'HelloWorldWebPartStrings' {

@@ -5,7 +5,9 @@ import { DefaultButton } from 'office-ui-fabric-react/lib/Button';
 import { TextField, MaskedTextField } from 'office-ui-fabric-react/lib/TextField';
 import { Stack, IStackProps } from 'office-ui-fabric-react/lib/Stack';
 import * as strings from 'HelloWorldWebPartStrings';
-const logo: any = require('./../../../assets/google.gif');
+
+const logo: any = require('./google.gif');
+
 
 export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
   public render(): React.ReactElement<IHelloWorldProps> {
@@ -19,7 +21,8 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
           <img src={logo} />
         </div>
         <div>
-          <span className={styles.title}>Welcome to SharePoint!</span>
+          <span className={styles.title}>Welcome to 4
+          </span>
           <br />
           <DefaultButton text={strings.AnotherProp} />
         </div>

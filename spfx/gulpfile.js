@@ -17,6 +17,6 @@ const copyStaticFilesSubtask = build.subTask('copy-static-files', function (gulp
   done();
 });
 
-build.rig.addPostBuildTask(copyStaticFilesSubtask);
+//build.rig.addPostBuildTask(copyStaticFilesSubtask);
 
 build.initialize(gulp);

@@ -7,7 +7,7 @@ module.exports = merge({
     target: "web",
     entry: {
         'hello-world-web-part': path.join(__dirname, '../src/webparts/helloWorld/HelloWorldWebPart.ts'),
-        'my-new-web-part-web-part': path.join(__dirname, '../src/webparts/myNewWebPart/MyNewWebPartWebPart.ts')
+       // 'my-new-web-part-web-part': path.join(__dirname, '../src/webparts/myNewWebPart/MyNewWebPartWebPart.ts')
     },
     output: {
         path: path.join(__dirname, '../dist'),

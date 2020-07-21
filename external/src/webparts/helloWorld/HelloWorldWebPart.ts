@@ -7,6 +7,7 @@ import {
     PropertyPaneTextField
 } from '@microsoft/sp-webpart-base';
 
+
 import * as strings from 'HelloWorldWebPartStrings';
 import HelloWorld from './components/HelloWorld';
 import { IHelloWorldProps } from './components/IHelloWorldProps';
@@ -66,6 +67,9 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
                             groupName: strings.BasicGroupName,
                             groupFields: [
                                 PropertyPaneTextField('description', {
+                                    label: strings.DescriptionFieldLabel
+                                }),
+                                PropertyPaneTextField('descriptionx', {
                                     label: strings.DescriptionFieldLabel
                                 })
                             ]
